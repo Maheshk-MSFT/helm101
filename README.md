@@ -15,3 +15,6 @@ Helm chart quickstart reference - POC steps
 8) ``` helm install mikkyapp ./nginx_poc-ssds.tgz ``` #install the package to connected k8s/AKS from local helm client 
 9) ``` helm uninstal mikkyapp ./nginx_poc-ssds.tgz ``` #to uninstal/cleanup 
 -----------
+
+open repo charts: https://artifacthub.io/packages/helm/bitnami/nginx
+download : https://github.com/helm/helm/releases/tag/v3.14.0

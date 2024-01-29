@@ -3,7 +3,7 @@ Helm chart quickstart reference - POC steps
 
 
 ---
-1) helm create nginx_poc  # create a new template file 
+1) ```$ helm create nginx_poc ``` # create a new template file 
 2) rm -rf charts  # delete charts, templates folder, notes.txt
 3) Open in VSCode ; create  notes.txt;update required description 
 4) create nginx_deployment.yaml and nginx_service.yaml # use this files for demo - https://github.com/Azure-Samples/azure-voting-app-redis

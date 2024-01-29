@@ -1,8 +1,13 @@
 # helm101
 Helm chart quickstart reference - POC steps
 
-
----
+---------------------
+Pre-req: 
+1) AKS cluster
+2) Helm local installation- WSL
+3) login to Azure, Get-AKS credential
+4) Type out $ <helm> to see if its working fine
+---------------------
 1) ```$ helm create nginx_poc ``` # create a new template file 
 2) ``` rm -rf charts ``` # delete charts, templates folder, notes.txt
 3) Open in VSCode ; create  notes.txt;update required description 
